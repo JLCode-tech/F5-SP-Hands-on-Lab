@@ -32,8 +32,9 @@ each student.
 Lab Topology
 ------------
 
-All pre-built environments implement the :ref:`_static/lab-topology` shown below.
+The Lab topology layout is shown below:
 
+.. image:: _static/lab-topology
 
 The following table lists VLANS, IP Addresses and Credentials for all
 components:
