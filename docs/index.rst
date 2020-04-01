@@ -1,4 +1,4 @@
-F5 SP PEM Training - Index
+SP Hands on Lab (PEM / DNS / CGNAT / AFM / Logging) - Index
 =====================================
 
 .. toctree::

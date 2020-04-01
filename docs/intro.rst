@@ -22,7 +22,7 @@ the provided blueprint for the course session.
 UDF Blueprint
 -------------
 
-If this is deleivered as part of a course, please follow the instructions provided by your lab instructor to access your
+If this is delivered as part of a course, please follow the instructions provided by your lab instructor to access your
 lab environment. The lab environment will be delivered  via UDF blueprints to
 each student.
 
@@ -32,7 +32,7 @@ each student.
 Lab Topology
 ------------
 
-All pre-built environments implement the :ref:`lab-topology` shown below.
+All pre-built environments implement the :ref:`_static/lab-topology` shown below.
 
 
 The following table lists VLANS, IP Addresses and Credentials for all
