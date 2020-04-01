@@ -36,6 +36,10 @@ The Lab topology layout is shown below:
 
 .. image:: docs/_static/lab-topology
 
+.. _lab-topology:
+
+|lab_topo1|
+
 The following table lists VLANS, IP Addresses and Credentials for all
 components:
 
