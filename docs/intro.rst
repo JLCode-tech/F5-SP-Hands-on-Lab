@@ -34,8 +34,6 @@ Lab Topology
 
 The Lab topology layout is shown below:
 
-.. image:: docs/_static/lab-topology
-
 .. _lab-topology:
 
 |lab_topo1|
