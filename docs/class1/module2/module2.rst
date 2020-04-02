@@ -1,19 +1,17 @@
-Module 2: What is PEM
+Module 2: Multi-module GiLAN Services
 =================================================
 
-- What is PEM
-	- Concepts
-		- SP DAG
-	- Structure
-	- DB's
-	- Policy
 
-- Supported Platforms
 
-- Sizing Considerations
 
-.. NOTE::
-    PPT will be uploaded to hive after the event.
+  Multi-module GiLAN services
+  
+  - Provisioning of Services
+    - Provision + AVR
+  - Setup of base F5 to support GiLAN
+    - Network setup
+    - Logging Setup for multimodules
+
 
 .. toctree::
    :maxdepth: 1

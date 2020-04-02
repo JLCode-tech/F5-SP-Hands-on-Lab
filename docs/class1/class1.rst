@@ -1,29 +1,22 @@
-Class 1: Overview of Policy Enforcement Manager
+Class 1: Overview of F5 SP Gi Consildation
 ===============================================
 
 This class covers the following topics:
 
-The first module will be instructor led.
-
 - Module 1
 
-  - PCEF / TDF
-
-  - Use cases for PEM
-    - Mobile / Fixed / University
-
-  - Successful Deployments
-  
+  - Links to F5 Gi-LAN
+  - Use Case Exploration
 
 - Module 2
 
-  - What is PEM
-
-  - Supported Platforms
-
-  - Sizing Considerations
-
-Expected time to complete: **?? mins**
+  Multi-module GiLAN services
+  
+  - Provisioning of Services
+    - Provision + AVR
+  - Setup of base F5 to support GiLAN
+    - Network setup
+    - Logging Setup for multimodules
 
 .. toctree::
    :maxdepth: 1

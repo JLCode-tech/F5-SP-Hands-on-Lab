@@ -1,17 +1,11 @@
 Module 1: Overview SP Architectures
 ===================================
 
-- PCEF / TDF
- - mobile 5g updates
+- PEM+AFM+DNS+TrafficSteering
+ - Links to content
 
-- Use cases for PEM
+- Use cases for Multi-Module
   - Mobile / Fixed / University
-
-- Successful Deployments
-
-.. NOTE:: 
-    PPT will be uploaded to hive after the event.
-
 
 .. toctree::
    :maxdepth: 1

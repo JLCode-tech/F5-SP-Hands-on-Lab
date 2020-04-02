@@ -5,8 +5,6 @@ This class covers the following topics:
 
 Module 1
 - Initial PEM setup
-  - Provision + AVR
-  - Network setup
   - Data Plane Wizard
     - PEM Policy
   - Control Plane Wizard
@@ -25,7 +23,7 @@ Module 2
     - Control Plane
 
 
-Expected time to complete: **?? hours**
+Expected time to complete: **30 mins**
 
 .. toctree::
    :maxdepth: 1

@@ -5,5 +5,5 @@
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum| – Verify PEM Setup
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lab |labmodule|\.\ |labnum| – Pass Traffic and Verify PEM Setup
+---------------------------------------------------------------
