@@ -41,13 +41,13 @@ Confirm the following main config items to verify your BIG-IP lab is on working 
 	Explore the rest of the configuration. Please look at the DNS setup (cache / monitor) and AFM CGNAT (NAPT) configurations.
 
 .. |prov_image| image:: /_static/prov_image.png
-   :scale: 60%
+   :scale: 100%
 .. |vlans| image:: /_static/vlans.png
    :scale: 80%
 .. |vlan_dag| image:: /_static/vlan_dag.png
    :scale: 80%
 .. |self_ip| image:: /_static/self_ip.png
-   :scale: 80%
+   :scale: 50%
 .. |routes| image:: /_static/routes.png
    :scale: 80%
 .. |pem_data_plane| image:: /_static/pem_data_plane.png
