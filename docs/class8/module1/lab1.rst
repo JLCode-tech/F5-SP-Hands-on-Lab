@@ -5,5 +5,10 @@
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum|\: Reporting
--------------------------------------------------------
+Lab |labmodule|\.\ |labnum|\: DNS
+---------------------------------
+
+Configure DNS for Gi-LAN
+   - DNS
+   - DNS cache
+   - DNS Security

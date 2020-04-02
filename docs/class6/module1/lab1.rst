@@ -5,5 +5,5 @@
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum|\: Traffic Classification
--------------------------------------------------------
+Lab |labmodule|\.\ |labnum|\: Bandwidth Control
+-----------------------------------------------

@@ -5,5 +5,7 @@
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum|\: RADIUS Subscriber Discover
+Lab |labmodule|\.\ |labnum|\: Create Basic PEM Policy
 -------------------------------------------------------
+
+basic multi rule Policy and test

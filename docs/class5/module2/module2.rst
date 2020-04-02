@@ -1,8 +1,10 @@
-Module 2: Dynamic subscriber provisioning
-=========================================
+Module 2: Custom Classificaitons
+==========================
 
 Module 2
-- Dynamic subscriber provisioning
+- Custom Classificitons
+- ltm profiles
+- irules
 
 .. toctree::
    :maxdepth: 1

@@ -1,16 +1,19 @@
-Class 5: Provisioning Subscribers
-=================================
+Class 5: Traffic classification
+==================
 
 This class covers the following topics:
 
 Module 1
-- Static Subscribers
+- Traffic Classificaiton
 
 Module 2
-- Dynamic Subscribers
+- Custom Classificication
+  - LTM profiles
+  - irules
 
+Module 3
+- updating signature files
 
-Expected time to complete: **?? hours**
 
 .. toctree::
    :maxdepth: 1

@@ -5,5 +5,16 @@
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum|\: Troubleshooting PEM
--------------------------------------------------------
+Lab |labmodule|\.\ |labnum|\: Basic Reporting
+---------------------------------------------
+
+
+Basic Reporting (with AVR)
+
+PEM
+- Reporting
+  - session
+  - flow
+- AVR
+
+AFM

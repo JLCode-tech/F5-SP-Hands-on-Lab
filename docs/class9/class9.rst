@@ -1,10 +1,17 @@
-Class 9: Troubleshooting PEM
-============================
+Class 9: Reporting
+==================
 
 This class covers the following topics:
 
 Module 1
-- PEM Troubleshooting
+- Reporting
+  - session
+  - flow
+- AVR
+
+Module 2
+- Reporting Externally
+- ELK
 
 
 Expected time to complete: **?? hours**

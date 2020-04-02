@@ -1,7 +1,8 @@
-Module 2: DHSCP Subscriber Discovery
+Module 2: Dynamic Subscriber Discovery
 ====================================
 
 Module 2
+- RADIUS Subscriber discovery
 - DHCP Subscriber discovery
 
 

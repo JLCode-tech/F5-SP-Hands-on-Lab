@@ -1,9 +1,6 @@
 Module 2: Multi-module GiLAN Services
 =================================================
 
-
-
-
   Multi-module GiLAN services
   
   - Provisioning of Services
@@ -11,6 +8,13 @@ Module 2: Multi-module GiLAN Services
   - Setup of base F5 to support GiLAN
     - Network setup
     - Logging Setup for multimodules
+
+Basis of this UDF is Consildation of Gi-LAN services.
+
+These services compose of PEM+AFM+DNS that forms the basis of a simple Gi-LAN.
+
+This entire lab will explore acpabilities and configuration of these services, including CGNAT, GiFW, traffic classification
+ and steering as well as subscriber discovery and application controls.
 
 
 .. toctree::

@@ -5,5 +5,5 @@
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum|\: Global BWC
--------------------------------------------------------
+Lab |labmodule|\.\ |labnum|\: CGNAT within AFM
+----------------------------------------------

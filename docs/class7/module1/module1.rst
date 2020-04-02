@@ -1,8 +1,7 @@
-Module 1: Global BWC
-=========================
+Module 1: CGNAT within AFM
+==========================
 
-Module 1
-- GLobal BWC
+- Configure CGNAT with AFM
 
 
 .. toctree::

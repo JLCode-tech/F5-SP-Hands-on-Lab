@@ -1,21 +1,12 @@
-Class 6: Traffic classification
-==================
+Class 6: BandWidth Contol
+=========================
 
 This class covers the following topics:
 
 Module 1
-- Traffic Classificaiton
-
-Module 2
-- Custom Classificication
-  - LTM profiles
-  - irules
-
-Module 3
-- updating signature files
-
-
-Expected time to complete: **?? hours**
+- Global BWC
+- Subscriber BWC
+- Application BWC
 
 .. toctree::
    :maxdepth: 1

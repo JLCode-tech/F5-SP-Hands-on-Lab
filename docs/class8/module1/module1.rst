@@ -1,11 +1,10 @@
-Module 1: Reporting
-=========================
+Module 1: DNS
+=============
 
-Module 1
-- Reporting
-  - session
-  - flow
-- AVR
+- Configure DNS for Gi-LAN
+   - DNS
+   - DNS cache
+   - DNS Security
 
 
 .. toctree::

@@ -1,17 +1,10 @@
-Class 7: BWC
-==================
+Class 7: AFM with CGNAT
+=======================
 
 This class covers the following topics:
 
 Module 1
-- Global BWC
-
-Module 2
-- Subscriber BWC
-- Application BWC
-
-
-Expected time to complete: **?? hours**
+- Configure CGNAT with AFM
 
 .. toctree::
    :maxdepth: 1

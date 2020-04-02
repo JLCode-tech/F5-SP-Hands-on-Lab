@@ -9,9 +9,7 @@ Module 1
   - PEM Rules
   - PEM irules
 
-
-
-Expected time to complete: **?? hours**
+Add links
 
 .. toctree::
    :maxdepth: 1

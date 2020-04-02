@@ -1,11 +1,10 @@
-Module 1: PEM Policy
-=========================
+Module 1: Subscriber Types
+==========================
 
 Module 1
-- Policy
-  - PEM Policy
-  - PEM Rules
-  - PEM irules
+  - Static Subscribers
+  - Dynamic Subscribers
+  - traffic generated subscribers
 
 
 .. toctree::

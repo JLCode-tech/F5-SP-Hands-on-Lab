@@ -8,4 +8,4 @@
 Lab |labmodule|\.\ |labnum|\: PEM iRULES
 -----------------------------------------------
 
-crete and use PEM irule in Policy
+create and use PEM irule in Policy and test

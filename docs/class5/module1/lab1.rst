@@ -5,5 +5,5 @@
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum|\: - Static subscriber provisioning
---------------------------------------------------------------
+Lab |labmodule|\.\ |labnum|\: Traffic Classification
+-------------------------------------------------------

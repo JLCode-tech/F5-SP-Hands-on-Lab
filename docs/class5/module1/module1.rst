@@ -1,8 +1,8 @@
-Module 1: - Static subscriber provisioning
-==========================================
+Module 1: Traffic Classification
+=========================
 
 Module 1
-- Static subscriber provisioning
+- Traffic Classifiction
 
 
 .. toctree::

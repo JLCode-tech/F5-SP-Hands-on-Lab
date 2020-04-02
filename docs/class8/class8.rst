@@ -1,20 +1,10 @@
-Class 8: Reporting
-==================
+Class 8: DNS
+============
 
 This class covers the following topics:
 
 Module 1
-- Reporting
-  - session
-  - flow
-- AVR
-
-Module 2
-- Reporting Externally
-- ELK
-
-
-Expected time to complete: **?? hours**
+- Configure DNS for Gi-LAN
 
 .. toctree::
    :maxdepth: 1

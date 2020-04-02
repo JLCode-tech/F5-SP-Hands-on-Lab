@@ -1,14 +1,20 @@
-Module 1: Troubleshooting PEM
-=============================
+Module 1: Basic Reporting
+=========================
 
 Module 1
-- tmsh commands
-- Stats
-- tmctl
-- check dag settings
-- check VS types
-- check PEM profiles
 
+Basic Reporting (with AVR)
+
+PEM
+- Reporting
+  - session
+  - flow
+- AVR
+
+AFM
+
+
+DNS
 
 .. toctree::
    :maxdepth: 1

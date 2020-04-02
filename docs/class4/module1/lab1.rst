@@ -5,7 +5,10 @@
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum|\: Create Basic PEM Policy
--------------------------------------------------------
+Lab |labmodule|\.\ |labnum|\: Static Subscriber Creation and Monitoring
+-----------------------------------------------------------------------
 
-basic multi rule Policy
+Create static Subscriber
+monitor static sub
+
+traffic generated subscribers
