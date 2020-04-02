@@ -46,7 +46,7 @@ components:
     :widths: 40, 40, 40, 60
 
     "Linux Jumphost", "Mgmt", "10.1.1.20", ""
-    "BIG-IP", "Mgmt", "10.1.1.4", "admin/admin"
+    "BIG-IP", "Mgmt", "10.1.1.4", "admin/MandoThis"
     "", "Internal", "10.1.10.5", ""
     "", "External", "10.1.20.5", ""
     "", "Control", "10.1.30.5", ""
@@ -55,8 +55,59 @@ components:
     "Client 01", "Mgmt", "10.1.1.7", "udfclient/S3rv1ceP0weR"
     "", "Internal", "10.1.10.30", ""
     "ELK Stack", "Mgmt", "10.1.1.5", "ubuntu/default"
-    "", "Control", "10.1.30.15", ""
+    "", "Control", "10.1.30.25", ""
+
+Lab Validation
+--------------
+
+Check the F5 components for valid licenses and operation.
+
+Update Admin Password for F5 if required
+Article https://support.f5.com/csp/article/K3350
+
+
+Check the Elasticsearch Host
+
+Login via ssh or webshell.
+
+Check the following commands screens to validate correct operations.
+
+Restart the services as required if failures occur.
+
+.. _EsCheck.png
+
+|EsCheck|
+
+Make sure Elasticsearch is now green
+
+.. _EsStart.png
+
+|EsStart|
+
+Next is to confirm Kibana can communicate to ES now.
+
+1.  Check status of Kibana
+2.  Restart Kibana if needed
+3.  Validate status again = green
+
+.. _KibanaRestartCheck.png
+
+|KibanaRestartCheck|
+
+Once all is confirmed, the lab is ready to be completed.
 
 .. |lab_topo1| image:: /_static/lab_topology.png
+   :width: 8in
+   :height: 4in
+
+.. |EsCheck| image:: /_static/EsCheck.png
+   :width: 8in
+   :height: 4in
+
+.. |EsStart| image:: /_static/EsStart.png
+   :width: 8in
+   :height: 4in
+
+.. |KibanaRestartCheck| image:: /_static/KibanaRestartCheck.png
    :width: 8in
    :height: 4in
