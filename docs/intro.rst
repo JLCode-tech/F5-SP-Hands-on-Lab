@@ -80,7 +80,7 @@ Restart the services as required if failures occur.
 
 Make sure Elasticsearch is now green
 
-.. _EsStart.png
+.. _EsStarted.png
 
 |EsStart|
 
@@ -101,13 +101,13 @@ Once all is confirmed, the lab is ready to be completed.
    :height: 4in
 
 .. |EsCheck| image:: /_static/EsCheck.png
-   :width: 8in
-   :height: 4in
+   :width: 6in
+   :height: 2in
 
-.. |EsStart| image:: /_static/EsStart.png
+.. |EsStarted| image:: /_static/EsStarted.png
    :width: 8in
    :height: 4in
 
 .. |KibanaRestartCheck| image:: /_static/KibanaRestartCheck.png
-   :width: 8in
-   :height: 4in
+   :width: 10in
+   :height: 5in
