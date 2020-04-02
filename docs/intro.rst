@@ -68,11 +68,9 @@ Article https://support.f5.com/csp/article/K3350
 
 Check the Elasticsearch Host
 
-Login via ssh or webshell.
-
-Check the following commands screens to validate correct operations.
-
-Restart the services as required if failures occur.
+1. Login via ssh or webshell.
+2. Check the following commands screens to validate correct operations.
+3. Restart the services as required if failures occur.
 
 .. _EsCheck.png
 
@@ -82,7 +80,7 @@ Make sure Elasticsearch is now green
 
 .. _EsStarted.png
 
-|EsStart|
+|EsStarted|
 
 Next is to confirm Kibana can communicate to ES now.
 
@@ -109,5 +107,5 @@ Once all is confirmed, the lab is ready to be completed.
    :height: 4in
 
 .. |KibanaRestartCheck| image:: /_static/KibanaRestartCheck.png
-   :width: 10in
-   :height: 5in
+   :width: 12in
+   :height: 4in
