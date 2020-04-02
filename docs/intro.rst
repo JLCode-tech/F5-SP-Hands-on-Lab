@@ -95,17 +95,13 @@ Next is to confirm Kibana can communicate to ES now.
 Once all is confirmed, the lab is ready to be completed.
 
 .. |lab_topo1| image:: /_static/lab_topology.png
-   :width: 8in
-   :height: 4in
+   :scale: 100%
 
 .. |EsCheck| image:: /_static/EsCheck.png
-   :width: 6in
-   :height: 2in
+    :scale: 100%
 
 .. |EsStarted| image:: /_static/EsStarted.png
-   :width: 8in
-   :height: 4in
+   :scale: 100%
 
 .. |KibanaRestartCheck| image:: /_static/KibanaRestartCheck.png
-   :width: 12in
-   :height: 4in
+   :scale: 100%
