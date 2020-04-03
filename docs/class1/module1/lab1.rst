@@ -18,23 +18,23 @@ Configuration of the following items in order:
 
 #. Create Vlans. 
 
-|VLanCreationExternal|
+|VlanCreationExternal|
 
 .. NOTE:: Use advanced settings and set External to Destination DAG. This pins return traffic back from Internet to the correct TMM
 
-|VLanCreationInternal|
+|VlanCreationInternal|
 
 .. NOTE:: Use advanced settings and set Internal to Source DAG. This pins traffic flows to the correct TMM per subscriber
 
-|VLanCreationControl|
+|VlanCreationControl|
 
 .. NOTE:: Use advanced settings and set Control to Default DAG. Default DAG is required for any control plane services (DHCP/RADIUS/Gx/Gy to function correctly.)
 
 #. Create SELF-IP's and routes as per table below:
 
-.. csv-table:: Lab Network Information
+.. csv-table:: Self IP Network Information
     :header: "VLAN", "IP Address"
-    :widths: 40, 40, 40
+    :widths: 40, 40
 
     "Internal", "10.1.10.5"
     "External", "10.1.20.5"
@@ -53,13 +53,13 @@ Logging Setup
 .. |prov_image| image:: /_static/prov_image.png
     :scale: 45%
 
-.. |VLanCreationExternal| image:: /_static/VLanCreationExternal.png
+.. |VlanCreationExternal| image:: /_static/VlanCreationExternal.png
     :scale: 100%
 
-.. |VLanCreationInternal| image:: /_static/VLanCreationInternal.png
+.. |VlanCreationInternal| image:: /_static/VlanCreationInternal.png
     :scale: 100%
 
-.. |VLanCreationDefault| image:: /_static/VLanCreationDefault.png
+.. |VlanCreationDefault| image:: /_static/VlanCreationDefault.png
     :scale: 100%
 
 .. |self_ip| image:: /_static/self_ip.png
