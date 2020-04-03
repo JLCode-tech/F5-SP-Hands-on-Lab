@@ -16,7 +16,6 @@ This class covers the following topics:
     - Provision + AVR
   - Setup of base F5 to support GiLAN
     - Network setup
-    - Logging Setup for multimodules
 
 .. toctree::
    :maxdepth: 1

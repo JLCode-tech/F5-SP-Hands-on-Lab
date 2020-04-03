@@ -8,12 +8,10 @@
 Lab |labmodule|\.\ |labnum| – Pass Traffic and Verify PEM Setup
 ---------------------------------------------------------------
 
-- Verify PEM setup
-  - DB downloads
-  - Log files to check
-
-- Pass PEM Traffic
+- Pass Traffic
   - Verify traffic paths
   - PEM traffic Stats
     - Data Plane
     - Control Plane
+  - DNS traffic stats
+  - CGNAT traffic stats

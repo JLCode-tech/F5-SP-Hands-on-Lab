@@ -7,3 +7,47 @@
 
 Lab |labmodule|\.\ |labnum|\: Provision and Base Setup
 -------------------------------------------------------
+
+Configuration of the following items in order:
+
+#. Checked Provisioned Modules refelcts the below image (DNS / PEM / AFM and AVR).
+
+|prov_image|
+
+.. NOTE:: CGNAT is NOT provisioned in this case as it is now part of AFM. This provisioning is for CGNAT standalone.
+
+#. Create Vlans. 
+
+|VLanCreationExternal|
+
+.. NOTE:: Use advanced settings and set External to Destination DAG. This pins return traffic back from Internet to the correct TMM
+
+|VLanCreationInternal|
+
+.. NOTE:: Use advanced settings and set Internal to Source DAG. This pins traffic flows to the correct TMM per subscriber
+
+|VLanCreationControl|
+
+.. NOTE:: Use advanced settings and set Control to Default DAG. Default DAG is required for any control plane services (DHCP/RADIUS/Gx/Gy to function correctly.)
+
+#. Create SELF-IP's and routes as per table below:
+
+.. csv-table:: Lab Network Information
+    :header: "VLAN", "IP Address"
+    :widths: 40, 40, 40
+
+    "Internal", "10.1.10.5"
+    "External", "10.1.20.5"
+    "Control", "10.1.30.5"
+
+|self_ip|
+
+|routes|
+
+#. Check that PeM Data plane is setup, you should see four PEM data plane VS as below.
+
+|pem_data_plane|
+
+#. Check that DNS Listener is configured.
+
+|sp_dns|

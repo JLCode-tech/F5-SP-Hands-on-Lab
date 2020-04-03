@@ -1,14 +1,9 @@
 .. |labmodule| replace:: 1
-.. |labnum| replace:: 1
+.. |labnum| replace:: 3
 .. |labdot| replace:: |labmodule|\ .\ |labnum|
 .. |labund| replace:: |labmodule|\ _\ |labnum|
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum|\: DNS
----------------------------------
-
-Configure DNS for Gi-LAN
-   - DNS
-   - DNS cache
-   - DNS Security
+Lab |labmodule|\.\ |labnum|\: CGNAT within AFM
+----------------------------------------------

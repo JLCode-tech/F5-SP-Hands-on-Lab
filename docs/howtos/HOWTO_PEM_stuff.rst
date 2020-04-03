@@ -6,7 +6,9 @@ PEM DB Keys
 
 insert useful PEM DB keys stuff here (ignore pictures below / place holder)
 
-
+- Verify PEM setup
+  - DB downloads
+  - Log files to check
 
 
 

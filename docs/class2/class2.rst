@@ -11,19 +11,22 @@ Module 1
   - Global PEM Policy
   - Unknown Subscriber Policy
 
-Module 2
-- Verify PEM setup
-  - DB downloads
-  - Log files to check
+  - DNS setup
 
-- Pass PEM Traffic
+  - CGNAT (AFM) setup 
+
+Module 2
+
+- Pass Traffic
   - Verify traffic paths
   - PEM traffic Stats
     - Data Plane
     - Control Plane
+  - DNS traffic stats
+  - CGNAT traffic stats
 
 
-Expected time to complete: **30 mins**
+
 
 .. toctree::
    :maxdepth: 1

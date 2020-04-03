@@ -16,6 +16,12 @@ Module 1
   - Unknown Subscriber Policy
     - link: 
 
+  - DNS setup
+    - link:
+
+  - CGNAT (AFM) setup
+    - link:
+
 .. toctree::
    :maxdepth: 1
    :glob:
