@@ -1,5 +1,5 @@
-Module 2: Verify Basic PEM
-==========================
+Module 2: Verify Basic GiLAN Operation
+======================================
 
 Module 2
 

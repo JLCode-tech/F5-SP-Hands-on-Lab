@@ -51,7 +51,7 @@ Logging Setup
 
 
 .. |prov_image| image:: /_static/prov_image.png
-    :scale: 100%
+    :scale: 45%
 
 .. |VLanCreationExternal| image:: /_static/VLanCreationExternal.png
     :scale: 100%
@@ -63,7 +63,7 @@ Logging Setup
     :scale: 100%
 
 .. |self_ip| image:: /_static/self_ip.png
-    :scale: 100%
+    :scale: 45%
 
 .. |routes| image:: /_static/routes.png
-    :scale: 100%
+    :scale: 45%

@@ -110,7 +110,7 @@ Next is to confirm Kibana can communicate to ES now.
 Once all is confirmed, the lab is ready to be completed.
 
 .. |lab_topo1| image:: /_static/lab_topology.png
-   :scale: 100%
+   :scale: 80%
 
 .. |EsCheck| image:: /_static/EsCheck.png
     :scale: 100%

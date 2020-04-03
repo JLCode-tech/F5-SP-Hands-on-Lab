@@ -1,4 +1,4 @@
-Module 1: Basic PEM Setup
+Module 1: Basic GiLAN Setup
 =========================
 
 Module 1

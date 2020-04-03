@@ -1,5 +1,5 @@
-Class 2: Basic PEM
-==================
+Class 2: Basic GiLAN setup and Verify
+=====================================
 
 This class covers the following topics:
 
@@ -22,7 +22,9 @@ Module 2
   - PEM traffic Stats
     - Data Plane
     - Control Plane
+
   - DNS traffic stats
+
   - CGNAT traffic stats
 
 
