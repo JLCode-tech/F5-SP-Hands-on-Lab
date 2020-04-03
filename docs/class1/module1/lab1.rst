@@ -33,12 +33,12 @@ Configuration of the following items in order:
 #. Create SELF-IP's as per table below:
 
 .. csv-table:: Self IP Network Information
-    :header: "VLAN", "IP Address"
-    :widths: 40, 40
+    :header: "VLAN", "IP Address", "Mask"
+    :widths: 40, 40, 40
 
-    "Internal", "10.1.10.5"
-    "External", "10.1.20.5"
-    "Control", "10.1.30.5"
+    "Internal", "10.1.10.5", "255.255.255.0"
+    "External", "10.1.20.5", "255.255.255.0"
+    "Control", "10.1.30.5", "255.255.255.0"
 
 |self_ip|
 
@@ -55,9 +55,53 @@ Configuration of the following items in order:
 
 #. Setup Logging Profiles.
 
-Logging Setup 
+The logging uses a cascading approach:
 
+    Log publisher
+        |
+        ------------>> Format Log (Splunk)
+                            |   
+                            --------------->> HSL Destination
+                                                    |
+                                                    ---------->> Logging Pool
 
+So we work backwards to achieve this starting at the Logging Pools
+
+#.  Create Logging Pools for each of the functions, in this case PEM , DNS , and AFM
+
+|LoggingPoolCreation|
+
+with the following Node Members
+
+.. csv-table:: Logging Pool Information
+    :header: "Node IP", "Port", "Function"
+    :widths: 40, 40, 40
+
+    "10.1.30.25", "5514", "PEM"
+    "10.1.30.25", "5515", "DNS"
+    "10.1.30.25", "5516", "AFM"
+
+Create System Log Destinations for HSL 
+
+|HSLLogDest|
+
+Do this for each of the Pools created before DNS and AFM.
+
+Now create the Format Destination for each HSL (Splunk format)
+
+.. NOTE:: ELK can use Splunk formats for HSL
+
+|LogDest|
+
+All Destinations created. Now create the publishers
+
+|ElkPub|
+
+.. NOTE:: Mkae sure to select the format destination (HSL destination will work, without formatting for ELK)
+
+Create all three module publishers, these will be used later for logging externally.
+
+|ElkAllPub|
 
 .. |prov_image| image:: /_static/prov_image.png
     :scale: 45%
@@ -76,3 +120,16 @@ Logging Setup
 
 .. |routes| image:: /_static/routes.png
     :scale: 45%
+
+.. |LoggingPoolCreation| image:: /_static/LoggingPoolCreation.png
+    :scale: 100%
+
+.. |HSLLogDest| image:: /_static/HSLLogDest.png
+    :scale: 100%
+
+.. |ElkPub| image:: /_static/ElkPub.png
+    :scale: 100%
+
+.. |ElkAllPub| image:: /_static/ElkAllPub.png
+    :scale: 100%
+
