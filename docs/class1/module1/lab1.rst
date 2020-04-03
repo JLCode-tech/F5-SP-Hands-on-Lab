@@ -91,13 +91,13 @@ Now create the Format Destination for each HSL (Splunk format)
 
 .. NOTE:: ELK can use Splunk formats for HSL
 
-|LogDest|
+|HSLLogDest|
 
 All Destinations created. Now create the publishers
 
 |ElkPub|
 
-.. NOTE:: Mkae sure to select the format destination (HSL destination will work, without formatting for ELK)
+.. NOTE:: Make sure to select the format destination (HSL destination will work, without formatting for ELK)
 
 Create all three module publishers, these will be used later for logging externally.
 
