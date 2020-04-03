@@ -30,7 +30,7 @@ Configuration of the following items in order:
 
 .. NOTE:: Use advanced settings and set Control to Default DAG. Default DAG is required for any control plane services (DHCP/RADIUS/Gx/Gy to function correctly.)
 
-#. Create SELF-IP's and routes as per table below:
+#. Create SELF-IP's as per table below:
 
 .. csv-table:: Self IP Network Information
     :header: "VLAN", "IP Address"
@@ -41,6 +41,15 @@ Configuration of the following items in order:
     "Control", "10.1.30.5"
 
 |self_ip|
+
+
+#. Create Default route as per table below:
+
+.. csv-table:: IP Route Network Information
+    :header: "Destination", "IP Address"
+    :widths: 40, 40
+
+    "Default", "10.1.20.1"
 
 |routes|
 
@@ -59,7 +68,7 @@ Logging Setup
 .. |VlanCreationInternal| image:: /_static/VlanCreationInternal.png
     :scale: 100%
 
-.. |VlanCreationDefault| image:: /_static/VlanCreationDefault.png
+.. |VlanCreationControl| image:: /_static/VlanCreationControl.png
     :scale: 100%
 
 .. |self_ip| image:: /_static/self_ip.png
