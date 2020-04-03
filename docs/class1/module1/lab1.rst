@@ -44,10 +44,26 @@ Configuration of the following items in order:
 
 |routes|
 
-#. Check that PeM Data plane is setup, you should see four PEM data plane VS as below.
+#. Setup Logging Profiles.
 
-|pem_data_plane|
+Logging Setup 
 
-#. Check that DNS Listener is configured.
 
-|sp_dns|
+
+.. |prov_image| image:: /_static/prov_image.png
+    :scale: 100%
+
+.. |VLanCreationExternal| image:: /_static/VLanCreationExternal.png
+    :scale: 100%
+
+.. |VLanCreationInternal| image:: /_static/VLanCreationInternal.png
+    :scale: 100%
+
+.. |VLanCreationDefault| image:: /_static/VLanCreationDefault.png
+    :scale: 100%
+
+.. |self_ip| image:: /_static/self_ip.png
+    :scale: 100%
+
+.. |routes| image:: /_static/routes.png
+    :scale: 100%

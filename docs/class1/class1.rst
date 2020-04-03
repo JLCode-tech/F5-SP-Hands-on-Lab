@@ -1,14 +1,9 @@
-Class 1: Overview of F5 SP Gi Consildation
-===============================================
+Class 1: F5 Gi-LAN Platform Basic Setup
+=======================================
 
 This class covers the following topics:
 
 - Module 1
-
-  - Links to F5 Gi-LAN
-  - Use Case Exploration
-
-- Module 2
 
   Multi-module GiLAN services
   

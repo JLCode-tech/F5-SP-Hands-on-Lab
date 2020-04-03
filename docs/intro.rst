@@ -4,6 +4,21 @@ Welcome to F5's SP Hands on Lab (PEM / DNS / CGNAT / AFM / Logging)
 
 This documentation is in support of the UDF lab of the same name.
 
+Overview SP GiLAN Consolidation
+-------------------------------
+
+- PEM+AFM+DNS+TrafficSteering
+ - Links to content
+
+- Use cases for Multi-Module
+  - Mobile / Fixed / University
+
+- Links to F5 Gi-LAN
+  - Use Case Exploration
+      - Video Optimisaiton
+      - CGNAT+TCPOpt
+      - Subscriber + Application Intelligent Traffic Steering
+
 Getting Started
 ---------------
 
