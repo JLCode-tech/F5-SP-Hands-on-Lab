@@ -1,11 +1,11 @@
 .. |labmodule| replace:: 1
-.. |labnum| replace:: 3
+.. |labnum| replace:: 1
 .. |labdot| replace:: |labmodule|\ .\ |labnum|
 .. |labund| replace:: |labmodule|\ _\ |labnum|
 .. |labname| replace:: Lab\ |labdot|
 .. |labnameund| replace:: Lab\ |labund|
 
-Lab |labmodule|\.\ |labnum|\: CGNAT within AFM
-----------------------------------------------
+Lab |labmodule|\.\ |labnum|\: Security
+------------------------------------------
 
-
+DNS Security

@@ -8,6 +8,13 @@
 Lab |labmodule|\.\ |labnum|\: DNS
 ---------------------------------
 
+DNS Pools
+~~~~~~~~~
+
+#. Create DNS Pools for external servers for DNS (Google in this case)
+
+|CreateDNSPool|
+
 DNS Cache
 ~~~~~~~~~
 
@@ -26,7 +33,12 @@ DNS Profile
 
 .. NOTE:: key component of this profile is the Cache enabled. This assists subscribers QoE and is an important feature we can use.
 
+DNS Listeners
+~~~~~~~~~~~~~
 
+#. Create the listeners and configure the DNS profile, and pools created before.
+
+|CreateDNSListener|
 
 .. |CreateDNSCache| image:: /_static/CreateDNSCache.png
     :scale: 100%
@@ -34,7 +46,9 @@ DNS Profile
 .. |CreateDNSProfile| image:: /_static/CreateDNSProfile.png
     :scale: 100%
 
-Configure DNS for Gi-LAN
-   - DNS
-   - DNS cache
-   - DNS Security
+.. |CreateDNSPool| image:: /_static/CreateDNSPool.png
+    :scale: 100%
+
+.. |CreateDNSListener| image:: /_static/CreateDNSListener.png
+    :scale: 100%
+   

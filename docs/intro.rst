@@ -16,7 +16,8 @@ Overview SP GiLAN Consolidation
 https://techdocs.f5.com/en-us/bigip-14-1-0/big-ip-policy-enforcement-manager-implementations-14-1-0.html
 
 - Links to F5 Gi-LAN
-  - Use Case Exploration
+
+- This Lab can be used to emulate lots of SP related use-cases. Some outlined below:
       - Video Optimisaiton
       - CGNAT+TCPOpt
       - Subscriber + Application Intelligent Traffic Steering
