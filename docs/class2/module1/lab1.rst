@@ -53,6 +53,10 @@ Once Complete output should look like below:
 
 .. NOTE:: Set Optimisations both Disabled and None, repectively. These settings are requried for production use, in a PoC or Lab most traffic will be optimisaed and not seen.
 
+
+Policy and Rule Creation
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 #. Create Unknown Subscriber Policy
 
 |CreatePolicy|
@@ -81,6 +85,9 @@ Using this as default Low Precedence Policy.
     :scale: 100%
 
 .. |DataPlaneWizard| image:: /_static/DataPlaneWizard.png
+    :scale: 100%
+
+.. |DataPlaneWizOutput| image:: /_static/DataPlaneWizOutput.png
     :scale: 100%
 
 .. |DPListenerConfig| image:: /_static/DPListenerConfig.png
