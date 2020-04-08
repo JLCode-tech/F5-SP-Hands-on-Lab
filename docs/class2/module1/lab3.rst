@@ -44,6 +44,11 @@ Quick Check to validate policy is assigned is to check the Security section Sour
 
 |CheckNATPolicy|
 
+
+.. NOTE:: Quick check from here into the RDP of client 1 and run the network_script.sh. From here you should be able check via the browser.
+
+|SimpleGiCheck|
+
 .. |CreateNAPT| image:: /_static/CreateNAPT.png
     :scale: 100%
 
@@ -60,4 +65,7 @@ Quick Check to validate policy is assigned is to check the Security section Sour
     :scale: 50%
 
 .. |CheckNATPolicy| image:: /_static/CheckNATPolicy.png
+    :scale: 50%
+
+.. |SimpleGiCheck| image:: /_static/SimpleGiCheck.png
     :scale: 50%
