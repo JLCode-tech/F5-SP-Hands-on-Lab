@@ -31,7 +31,7 @@ Data Plane Wizard
 
 Click on the + symbol to craete the PEM data listeners for all protocols.
 
-.. NOTE:: This will not use SNAT as there will be a source CNGAT provided by AFM in Lab3 of this module.
+.. NOTE:: This will not use SNAT as there will be a source CGNAT provided by AFM in Lab3 of this module.
 
 Fill out as per below
 
