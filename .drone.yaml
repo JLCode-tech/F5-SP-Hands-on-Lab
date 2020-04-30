@@ -1,4 +1,13 @@
-slack_notify:
-  image: tutum/curl
-  commands:
-    - curl -X POST --data-urlencode 'payload={"text":"Test slack integration"}' ${{SLACK_WEB_URL}}
+---
+kind: pipeline
+name: Apply templates
+
+steps:
+- name: slack
+  image: plugins/slack
+  settings:
+    webhook:
+      from_secret: SLACK_WEB_URL
+    channel: document-code
+  when:
+    status: [ success, failure ]
