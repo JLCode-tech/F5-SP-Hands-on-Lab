@@ -2,12 +2,33 @@
 kind: pipeline
 name: Apply templates
 
+workspace:
+  base: /go
+  path: src/github.com/yourname/go-drone-hello-world
 steps:
-- name: slack
-  image: plugins/slack
-  settings:
-    webhook:
-      from_secret: SLACK_WEB_URL
-    channel: document-code
-  when:
-    status: [ success, failure ]
+  - name: test
+    image: golang
+    commands:
+      - go get
+      - go test
+  - name: build
+    image: golang
+    commands:
+      - go get
+      - go build -o output
+      - chmod +x output
+  - name: run
+    image: golang
+    commands:
+      - go get
+      - go build -o output
+      - chmod +x output
+      - ./output
+  - name: slack
+    image: plugins/slack
+    settings:
+      webhook:
+        from_secret: SLACK_WEB_URL
+      channel: document-code
+    when:
+      status: [ success, failure ]
