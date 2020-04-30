@@ -1,0 +1,4 @@
+slack_notify:
+  image: tutum/curl
+  commands:
+    - curl -X POST --data-urlencode 'payload={"text":"Test slack integration"}' ${{SLACK_WEB_URL}}
