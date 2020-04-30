@@ -29,12 +29,12 @@ steps:
     settings:
       webhook:
         from_secret: SLACK_WEB_URL
-      channel: document-code
-      #template: >
-      #{{#success build.status}}
-      #  build {{build.number}} succeeded. Good job.
-      #{{else}}
-      #  build {{build.number}} failed. Fix me please.
-      #{{/success}}
+    channel: document-code
+    template: >
+      {{#success build.status}}
+        build {{build.number}} succeeded. Good job.
+      {{else}}
+        build {{build.number}} failed. Fix me please.
+      {{/success}}
     when:
       status: [ success, failure ]
